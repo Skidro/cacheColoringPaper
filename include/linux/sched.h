@@ -59,6 +59,10 @@ struct sched_param {
 
 #include <asm/processor.h>
 
+#ifdef CONFIG_CGROUP_PALLOC
+#include <linux/mmzone.h>
+#endif
+
 #define SCHED_ATTR_SIZE_VER0	48	/* sizeof first published struct */
 
 /*
@@ -1182,6 +1186,12 @@ struct task_struct {
 	atomic_t usage;
 	unsigned int flags;	/* per process flags, defined below */
 	unsigned int ptrace;
+
+	/* Keep track of the cache color utilization information of this task */
+#ifdef CONFIG_CGROUP_PALLOC
+	unsigned int color_util[MAX_PALLOC_BINS];
+	unsigned int lac;
+#endif
 
 #ifdef CONFIG_SMP
 	struct llist_node wake_entry;

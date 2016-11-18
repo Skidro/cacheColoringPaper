@@ -1143,6 +1143,10 @@ static struct task_struct *copy_process(unsigned long clone_flags,
 	int retval;
 	struct task_struct *p;
 
+#ifdef CONFIG_CGROUP_PALLOC
+	int color_index;
+#endif
+
 	if ((clone_flags & (CLONE_NEWNS|CLONE_FS)) == (CLONE_NEWNS|CLONE_FS))
 		return ERR_PTR(-EINVAL);
 
@@ -1194,6 +1198,19 @@ static struct task_struct *copy_process(unsigned long clone_flags,
 	p = dup_task_struct(current);
 	if (!p)
 		goto fork_out;
+
+#ifdef CONFIG_CGROUP_PALLOC
+	/*
+	 * Set the initial color utilization information for this task to zero since
+	 * it is just starting out
+	 */
+	p->lac = -1;
+
+	/* Also zero out the utilization array for each individual cache color */
+	for (color_index = 0; color_index < MAX_PALLOC_BINS; color_index++) {
+		p->color_util[color_index] = 0;
+	}
+#endif
 
 	ftrace_graph_init_task(p);
 	get_seccomp_filter(p);
