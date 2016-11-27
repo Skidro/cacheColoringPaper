@@ -1,0 +1,45 @@
+assigned priority -19
+total sum = 1152105599040000
+
+Stack 			 : 0x7fff9c872d4c
+Heap 			 : 0x7fe2a9247010
+BSS 			 : 0x6c5ce8
+Text 			 : 0x401420
+
+===========================================================
+	 Color Number 	 : 	      Pages 	 Size (MB)
+===========================================================
+	    ### 	 : 	       2083        8
+	 Color[00] 	 : 	         82        0
+	 Color[01] 	 : 	         57        0
+	 Color[02] 	 : 	         52        0
+	 Color[03] 	 : 	         51        0
+	 Color[04] 	 : 	         70        0
+	 Color[05] 	 : 	         67        0
+	 Color[06] 	 : 	         57        0
+	 Color[07] 	 : 	         69        0
+	 Color[08] 	 : 	         82        0
+	 Color[09] 	 : 	         61        0
+	 Color[10] 	 : 	         69        0
+	 Color[11] 	 : 	         48        0
+	 Color[12] 	 : 	         63        0
+	 Color[13] 	 : 	         73        0
+	 Color[14] 	 : 	         54        0
+	 Color[15] 	 : 	         61        0
+	 Color[16] 	 : 	         59        0
+	 Color[17] 	 : 	         55        0
+	 Color[18] 	 : 	         60        0
+	 Color[19] 	 : 	         66        0
+	 Color[20] 	 : 	         66        0
+	 Color[21] 	 : 	         62        0
+	 Color[22] 	 : 	         70        0
+	 Color[23] 	 : 	         69        0
+	 Color[24] 	 : 	         66        0
+	 Color[25] 	 : 	         64        0
+	 Color[26] 	 : 	         70        0
+	 Color[27] 	 : 	         58        0
+	 Color[28] 	 : 	         71        0
+	 Color[29] 	 : 	         69        0
+	 Color[30] 	 : 	         87        0
+	 Color[31] 	 : 	         75        0
+

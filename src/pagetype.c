@@ -60,7 +60,7 @@
 #define BITOP_WORD(nr)		((nr) / BITS_PER_LONG)
 #define PAGE_SHIFT		12
 
-#define PALLOC_MASK		0x03000
+#define PALLOC_MASK		0x1F000
 
 /* Function Prototypes */
 static void		show_summary(void);

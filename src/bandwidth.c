@@ -212,7 +212,7 @@ int main(int argc, char *argv[])
 
 	/* Create argument list to be passed to pagetype program */
 	my_pid = getpid();
-	fprintf(stderr, "%d", (int)my_pid);
+	// fprintf(stderr, "%d", (int)my_pid);
 	sprintf(pid_s, "%llu", my_pid);
 
 #if (PROFILE_CTL == 1)
