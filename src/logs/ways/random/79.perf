@@ -1,0 +1,44 @@
+assigned priority -19
+
+Stack 			 : 0x7fffcaa8002c
+Heap 			 : 0x7f0d760bc010
+BSS 			 : 0x6c5dd0
+Text 			 : 0x401089
+
+===========================================================
+	 Color Number 	 : 	      Pages 	 Size (MB)
+===========================================================
+	    ### 	 : 	       1116        4
+	 Color[00] 	 : 	         36        0
+	 Color[01] 	 : 	         31        0
+	 Color[02] 	 : 	         37        0
+	 Color[03] 	 : 	         33        0
+	 Color[04] 	 : 	         31        0
+	 Color[05] 	 : 	         33        0
+	 Color[06] 	 : 	         30        0
+	 Color[07] 	 : 	         33        0
+	 Color[08] 	 : 	         29        0
+	 Color[09] 	 : 	         37        0
+	 Color[10] 	 : 	         36        0
+	 Color[11] 	 : 	         48        0
+	 Color[12] 	 : 	         32        0
+	 Color[13] 	 : 	         42        0
+	 Color[14] 	 : 	         37        0
+	 Color[15] 	 : 	         34        0
+	 Color[16] 	 : 	         34        0
+	 Color[17] 	 : 	         40        0
+	 Color[18] 	 : 	         35        0
+	 Color[19] 	 : 	         29        0
+	 Color[20] 	 : 	         24        0
+	 Color[21] 	 : 	         36        0
+	 Color[22] 	 : 	         23        0
+	 Color[23] 	 : 	         38        0
+	 Color[24] 	 : 	         34        0
+	 Color[25] 	 : 	         38        0
+	 Color[26] 	 : 	         42        0
+	 Color[27] 	 : 	         45        0
+	 Color[28] 	 : 	         31        0
+	 Color[29] 	 : 	         45        0
+	 Color[30] 	 : 	         35        0
+	 Color[31] 	 : 	         28        0
+

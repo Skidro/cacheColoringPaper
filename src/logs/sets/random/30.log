@@ -1,0 +1,12 @@
+# started on Tue Dec 13 01:24:44 2016
+
+
+ Performance counter stats for './../src/bandwidth -c 0 -m 3648 -t 60 -p -19':
+
+   108,546,941,594 instructions              #    0.91  insns per cycle        
+   119,720,598,741 cycles                    #    0.000 GHz                    
+     6,783,755,143 cache-references                                            
+     2,782,620,241 cache-misses              #   41.019 % of all cache refs    
+
+      60.007994265 seconds time elapsed
+
